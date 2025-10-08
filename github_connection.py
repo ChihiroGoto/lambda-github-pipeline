@@ -1,5 +1,6 @@
 def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': 'Hello from GitHub + CodePipeline!'
+        'body': 'Auto-deployed from + CodePipeline!'
     }
+
